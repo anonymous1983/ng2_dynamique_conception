@@ -1,0 +1,64 @@
+[
+  {
+    "id": "column1",
+    "name": "column1",
+    "label": "column 1",
+    "visible": true,
+    "tag": "input",
+    "type": "number",
+    "default": "0"
+  },
+  {
+    "id": "column2",
+    "name": "column2",
+    "label": "column 2",
+    "visible": true,
+    "tag": "input",
+    "type": "text",
+    "default": "text"
+  },
+  {
+    "id": "column3",
+    "name": "column3",
+    "label": "column 3",
+    "visible": true,
+    "tag": "input",
+    "type": "text",
+    "default": "text 2"
+  },
+  {
+    "id": "column4",
+    "name": "column4",
+    "label": "Toggle and see the change",
+    "visible": true,
+    "tag": "checkbox",
+    "default": true
+  },
+  {
+    "id": "column5",
+    "name": "column5",
+    "label": "column 5",
+    "visible": true,
+    "tag": "select",
+    "values": [
+      "Blue",
+      "Yellow",
+      "White"
+    ],
+    "options": [
+      "Blue option",
+      "Yellow option",
+      "White option"
+    ],
+    "default": "Yellow"
+  },
+  {
+    "id": "column6",
+    "name": "column6",
+    "label": "column 6",
+    "visible": true,
+    "tag": "textarea",
+    "type": "text",
+    "default": ""
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "name": "rsem-module-statistiques",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"postinstall": "bower cache clean && bower install",
+	"start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.local-trust.com/anis.abid/dashboard.git"
+  },
+  "author": {
+    "name": "Anis ABID",
+    "email": "anis.abid@atexo.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "browser-sync": "^2.11.1",
+    "faker": "^3.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^4.3.4",
+    "gulp-typescript": "^2.10.0",
+    "http-proxy-middleware": "^0.11.0",
+    "lodash": "^4.1.0",
+    "npm-shrinkwrap": "^5.4.1",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "superstatic": "^1.2.3"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "atexo-component-dashboard": "^1.1.1",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "0.19.6"
+  }
+}

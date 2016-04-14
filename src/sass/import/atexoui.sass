@@ -1,0 +1,50 @@
+=list-center
+  display: table
+  text-align: center
+  margin: 0 auto
+  cursor: pointer
+  padding: 0
+
+=list-right
+  display: table
+  text-align: left
+  margin: 0
+  padding: 0
+  cursor: pointer
+  float: right
+
+.atexoui-link.center
+  +list-center()
+
+.atexoui-link.right
+  +list-right()
+
+.atexoui-list
+  &.center
+    +list-center()
+  &.right
+    +list-right()
+  &.horizontal
+    li
+      &.disabled
+        a, a:hover, a:active, a:focus
+          color: #ccc
+      &.available
+        a, a:hover, a:active, a:focus
+          color: #666
+      a, a:hover, a:active, a:focus
+        text-decoration: none
+        display: block
+        padding: 2px
+      a, a:active, a:focus
+        color: #ccc
+        font-weight: 600
+      a:hover
+        color: #999
+
+      display: table-cell
+      padding: 0 2px
+
+  &.vertical
+    display: table-row
+    padding: 0 2px

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "date_lanc_debut",
+    "name": "date_lanc_debut",
+    "label": "Date début",
+    "visible": true,
+    "tag": "input",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "date_lanc_fin",
+    "name": "date_lanc_fin",
+    "label": "Date fin",
+    "visible": true,
+    "tag": "input",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "nature",
+    "name": "nature",
+    "label": "Nature",
+    "visible": true,
+    "tag": "select",
+    "values": [
+      "~NOTHING~",
+      "Travaux",
+      "Services",
+      "Fournitures"
+    ],
+    "options": [
+      "[Sélectionner une nature]",
+      "Travaux",
+      "Services",
+      "Fournitures"
+    ],
+    "default": ""
+  }
+]

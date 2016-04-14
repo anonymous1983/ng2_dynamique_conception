@@ -1,0 +1,27 @@
+{
+  "name": "atexo_dashboard_ng",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Anis ABID"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "c3": "^0.4.10",
+    "jquery": "^1.12.*",
+    "jquery-ui": "1.11.4",
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.5",
+    "angular": "angular2#^1.5.0"
+  }
+}

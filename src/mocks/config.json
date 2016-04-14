@@ -1,0 +1,16 @@
+[
+  {
+    "id": "id_input_01",
+    "tag": "input",
+    "type": "text",
+    "placeholder": "test",
+    "value": ""
+  },
+  {
+    "id": "id_input_02",
+    "tag": "input",
+    "type": "text",
+    "placeholder": "test",
+    "value": ""
+  }
+]

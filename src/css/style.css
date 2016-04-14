@@ -1,0 +1,103 @@
+.atexoui-link.center {
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 0; }
+
+.atexoui-link.right {
+  display: table;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  float: right; }
+
+.atexoui-list.center {
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 0; }
+
+.atexoui-list.right {
+  display: table;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  float: right; }
+
+.atexoui-list.horizontal li {
+  display: table-cell;
+  padding: 0 2px; }
+  .atexoui-list.horizontal li.disabled a, .atexoui-list.horizontal li.disabled a:hover, .atexoui-list.horizontal li.disabled a:active, .atexoui-list.horizontal li.disabled a:focus {
+    color: #ccc; }
+  .atexoui-list.horizontal li.available a, .atexoui-list.horizontal li.available a:hover, .atexoui-list.horizontal li.available a:active, .atexoui-list.horizontal li.available a:focus {
+    color: #666; }
+  .atexoui-list.horizontal li a, .atexoui-list.horizontal li a:hover, .atexoui-list.horizontal li a:active, .atexoui-list.horizontal li a:focus {
+    text-decoration: none;
+    display: block;
+    padding: 2px; }
+  .atexoui-list.horizontal li a, .atexoui-list.horizontal li a:active, .atexoui-list.horizontal li a:focus {
+    color: #ccc;
+    font-weight: 600; }
+  .atexoui-list.horizontal li a:hover {
+    color: #999; }
+
+.atexoui-list.vertical {
+  display: table-row;
+  padding: 0 2px; }
+
+.dashboard {
+  padding: 0.625em 0; }
+  .dashboard .bloc-toggle .panel-title {
+    display: block;
+    text-decoration: none;
+    color: #3d6ba6;
+    font-size: 1em; }
+
+.overlay-options {
+  padding-left: 0;
+  list-style: none;
+  display: none; }
+  .overlay-options.top {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 100; }
+  .overlay-options .option-item {
+    padding: 2px 6px;
+    overflow: hidden;
+    display: block;
+    line-height: 16px; }
+
+.panel-body-type-list .display-chart {
+  position: relative; }
+  .panel-body-type-list .display-chart .atexoui-list {
+    position: absolute;
+    top: 30%;
+    right: 10px; }
+    .panel-body-type-list .display-chart .atexoui-list .count {
+      display: inline-block;
+      width: 40px;
+      text-align: center; }
+
+body {
+  font: 11px Arial, Helvetica, sans-serif;
+  color: #3D6BA6; }
+
+.portlet-placeholderstatistique {
+  margin-bottom: 20px;
+  height: 50px; }
+
+.dropzone,
+.portlet-placeholder {
+  border: 2px dashed #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  padding: 0 20px 20px; }

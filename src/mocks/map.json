@@ -1,0 +1,195 @@
+[
+  {
+    "id": "01",
+    "label": "nav 01",
+    "default": true,
+    "childrens": [
+      {
+        "id": "011",
+        "label": "sub nav 011",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_02.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "012",
+        "label": "sub nav 012",
+        "default": true,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "013",
+        "label": "sub nav 013",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "label": "nav 02",
+    "default": false,
+    "childrens": [
+      {
+        "id": "021",
+        "label": "sub nav 021",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "022",
+        "label": "sub nav 022",
+        "default": true,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "label": "nav 03",
+    "default": false,
+    "childrens": [
+      {
+        "id": "031",
+        "label": "sub nav 031",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "032",
+        "label": "sub nav 032",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "033",
+        "label": "sub nav 033",
+        "default": true,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "label": "nav 04",
+    "default": false,
+    "childrens": [
+      {
+        "id": "041",
+        "label": "sub nav 041",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "042",
+        "label": "sub nav 042",
+        "default": false,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      },
+      {
+        "id": "043",
+        "label": "sub nav 043",
+        "default": true,
+        "config": {
+          "filterUrl": "/src/mocks/folder_filter/filter_01.json",
+          "form": {
+            "action": "/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM___Suivi_des_consultations_BIS.json",
+            "header": {
+              "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
+            },
+            "_format": "json"
+          }
+        }
+      }
+    ]
+  }
+]
