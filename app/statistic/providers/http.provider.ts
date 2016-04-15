@@ -24,7 +24,10 @@ export class HttpProvider {
         return this.http.request(req);
     }
 
-    getBiRequest(_url:string, _search?:Object, _header?:Object) {
+    getBiRequest(_url:string, _search?:Object) {
+        let _header:Object = {
+            Authorization: 'Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4='
+        };
         return this.getRequest(_url, _search, _header);
     }
 

@@ -6,7 +6,7 @@ import {isPresent, isBlank} from 'angular2/src/facade/lang';
     selector: '.sidebarleft-component',
     template: `
     <ul class="nav nav-pills nav-stacked" *ngIf="map.length">
-        <li role="presentation" *ngFor="#item of map; #i = index" [class.active]="item.default === true"><a href="#" (click)="clickItem(item)">{{item.label}}</a>
+        <li role="presentation" *ngFor="#item of map; #i = index" [class.active]="item.id === mapSelected.id"><a href="#" (click)="clickItem(item)">{{item.label}}</a>
         </li>
     </ul>`
 })

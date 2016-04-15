@@ -4,7 +4,9 @@ import {isPresent, isBlank} from 'angular2/src/facade/lang';
 @Component({
     selector: '.main-component',
     template: `
-        <table class="table">
+        <div class="error" *ngIf="!data.length">Aucune donnée ne correspond a votre recherche</div>
+
+        <table class="table table-bordered table-striped"  *ngIf="data.length">
             <thead>
                 <tr>
                     <th>Numéro consultation</th>
@@ -41,6 +43,8 @@ export class Main {
     public data:Array<Object>;
 
     ngOnChanges() {
+
+        console.log(this.currentData);
         if (!isBlank(this.map)) {
             console.log(this.map);
             console.log(this.currentData);

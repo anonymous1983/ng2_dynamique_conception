@@ -7,7 +7,7 @@ import {Main, SideBarLeft, NavBar, FormBuilder} from './components/index';
 
 import {Value} from './class/index';
 import {HttpProvider} from './providers/index';
-import {ValueService} from './services/index'
+import {ValueService} from './services/index';
 
 @Component({
     selector: 'statistic',
@@ -16,7 +16,7 @@ import {ValueService} from './services/index'
 
 @View({
     template: `
-    <div class="container row row-offcanvas row-offcanvas-right">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-2 sidebar-offcanvas" *ngIf="map">
                 <div class="sidebarleft-component" [obj]="map" (clickItemEvent)="selectMap($event)"></div>
@@ -46,15 +46,36 @@ export class Statistic {
 
         this.httpProvider = httpProvider;
 
-        this.httpProvider.getRequest('/src/mocks/map.json').subscribe((res:Response) => {
+        this.httpProvider.getBiRequest('/bi/rest_v2/reports/reports/RSEM___Rapports_module_stats/RSEM_DonneesReferentielles.json').subscribe(
+            (res:Response) => {
+                console.log(res.json());
+            },
+            ((err:Response) => {
+                if (err.status === 404 || err.status === 401) {
+                    console.log(err);
+                }
+            })
+        );
 
-            if (res.status === 200) {
-                this.map = res.json();
-                this.currentMap = this.map[0];
-                this.currentSubMap = {};
-            }
+        this.httpProvider.getRequest('/src/mocks/map.json').subscribe(// Http Success
+            (res:Response) => {
 
-        });
+                if (res.status === 200) {
+                    if (res.text() !== '') {
+                        this.map = res.json();
+                        this.currentMap = this.map[0];
+                        this.currentSubMap = {};
+                    }
+                }
+
+            },
+            // Http Error
+            ((err:Response) => {
+                if (err.status === 404 || err.status === 401) {
+                    console.log(err);
+                }
+            })
+        );
 
     }
 
@@ -75,14 +96,12 @@ export class Statistic {
     }
 
     public submitForm(e:any) {
-        this.httpProvider.getBiRequest(this.currentSubMap['item'].config.form.action, ValueService.getInstance().toRequest(e.data), this.currentSubMap['item'].config.form.header).subscribe(
+        this.httpProvider.getRequest(this.currentSubMap['item'].config.form.action, ValueService.getInstance().toRequest(e.data), this.currentSubMap['item'].config.form.header).subscribe(
             // Http Success
             (res:Response) => {
 
                 if (res.status === 200) {
-                    if (res.text() !== '') {
-                        this.currentData = res.json();
-                    }
+                    this.currentData = (res.text() !== '') ? res.json() : [{data: new Array(), group: new Array()}];
                 }
 
             },

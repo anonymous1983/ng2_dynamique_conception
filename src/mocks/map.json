@@ -7,7 +7,7 @@
       {
         "id": "011",
         "label": "sub nav 011",
-        "default": false,
+        "default": true,
         "config": {
           "filterUrl": "/src/mocks/folder_filter/filter_02.json",
           "form": {
@@ -22,7 +22,7 @@
       {
         "id": "012",
         "label": "sub nav 012",
-        "default": true,
+        "default": false,
         "config": {
           "filterUrl": "/src/mocks/folder_filter/filter_01.json",
           "form": {

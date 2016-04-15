@@ -5,8 +5,8 @@
     "label": "Date début",
     "visible": true,
     "tag": "input",
-    "type": "text",
-    "default": ""
+    "type": "date",
+    "default": "2015-04-15"
   },
   {
     "id": "date_lanc_fin",
@@ -14,8 +14,8 @@
     "label": "Date fin",
     "visible": true,
     "tag": "input",
-    "type": "text",
-    "default": ""
+    "type": "date",
+    "default": "2016-04-15"
   },
   {
     "id": "nature",

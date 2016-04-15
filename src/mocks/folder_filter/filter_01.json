@@ -6,7 +6,8 @@
     "visible": true,
     "tag": "input",
     "type": "number",
-    "default": "0"
+    "default": "0",
+    "class": ""
   },
   {
     "id": "column2",
@@ -15,7 +16,8 @@
     "visible": true,
     "tag": "input",
     "type": "text",
-    "default": "text"
+    "default": "text",
+    "class": ""
   },
   {
     "id": "column3",
@@ -24,7 +26,8 @@
     "visible": true,
     "tag": "input",
     "type": "text",
-    "default": "text 2"
+    "default": "text 2",
+    "class": ""
   },
   {
     "id": "column4",
@@ -32,7 +35,8 @@
     "label": "Toggle and see the change",
     "visible": true,
     "tag": "checkbox",
-    "default": true
+    "default": true,
+    "class": ""
   },
   {
     "id": "column5",
@@ -50,7 +54,8 @@
       "Yellow option",
       "White option"
     ],
-    "default": "Yellow"
+    "default": "Yellow",
+    "class": ""
   },
   {
     "id": "column6",
@@ -59,6 +64,7 @@
     "visible": true,
     "tag": "textarea",
     "type": "text",
-    "default": ""
+    "default": "",
+    "class": ""
   }
 ]
