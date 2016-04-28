@@ -37,13 +37,13 @@ export class ValueService {
         if (isJsObject(data)) {
             for (var item in data) {
                 if (data.hasOwnProperty(item)) {
-                    if(isArray(data[item].value)){
+                    if (isArray(data[item].value)) {
                         data[item].value.forEach(val => {
                             //console.log(val);
                             //_data[item] = val;
                             _data[item] = data[item].value;
                         });
-                    }else{
+                    } else {
                         _data[item] = data[item].value;
                     }
 

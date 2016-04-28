@@ -96,8 +96,8 @@ export class FormControl {
     }
 
     ngAfterViewInit() {
-        console.log(this);
-        this.bindingData();
+        console.log(this.allData);
+        //this.bindingData();
     }
 
     private onChangeDaterangepickerEvent(e:any) {
