@@ -7,3 +7,4 @@
 
 export * from './atexo-util.service';
 export * from './atexo-progress.service';
+export * from './atexo-root-scope.service';

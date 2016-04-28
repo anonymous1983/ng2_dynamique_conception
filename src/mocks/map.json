@@ -16,6 +16,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -31,6 +77,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -46,6 +138,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       }
@@ -68,6 +206,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -105,6 +289,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -120,6 +350,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -135,6 +411,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       }
@@ -157,6 +479,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -172,6 +540,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       },
@@ -187,6 +601,52 @@
               "Authorization": "Basic amFzcGVyYWRtaW46amFzcGVyYWRtaW4="
             },
             "_format": "json"
+          },
+          "table": {
+            "header": {
+              "th": [
+                {
+                  "index": "numero_consultation",
+                  "title": "N° consultation",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_consultation",
+                  "title": "Consultation",
+                  "width": ""
+                },
+                {
+                  "index": "statut_consultation",
+                  "title": "Statut",
+                  "width": ""
+                },
+                {
+                  "index": "numero_lot",
+                  "title": "N° Lot",
+                  "width": ""
+                },
+                {
+                  "index": "intitule_lot",
+                  "title": "Lot",
+                  "width": ""
+                },
+                {
+                  "index": "lancement_date_reelle",
+                  "title": "Date Lancement",
+                  "width": ""
+                },
+                {
+                  "index": "notification_date_reelle",
+                  "title": "Date Notification",
+                  "width": ""
+                },
+                {
+                  "index": "attribution_date_reelle",
+                  "title": "Date Attribution",
+                  "width": ""
+                }
+              ]
+            }
           }
         }
       }

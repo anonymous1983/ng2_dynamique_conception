@@ -5,10 +5,16 @@ import {Util} from '../../../atexo/common/services/atexo.service';
 @Component({
     selector: '.navbar-component',
     template: `
-    <form (ngSubmit)="onSubmit()" #form="ngForm" name="form-nav-bar">
-        <select class="form-control" *ngIf="subMap.length" [ngModel]="subMapSelectedIndex" (ngModelChange)="changeItem($event)">
-            <option *ngFor="#item of subMap; #i = index" [value]="i">{{item.label}}</option>
-        </select>
+    <form class="form-horizontal" (ngSubmit)="onSubmit()" #form="ngForm" name="form-nav-bar">
+        <div class="form-group form-group-sm">
+            <label class="col-xs-2 control-label" for="achats_requetes">Objet du rapport</label>
+            <div class="col-xs-8">
+                <select data-placeholder="Selectionnez..." class="referentiels-longInput raport-chosen-select"
+                        title="Requêtes" id="achats_requetes" *ngIf="subMap.length" [ngModel]="subMapSelectedIndex" (ngModelChange)="changeItem($event)">>
+                    <option *ngFor="#item of subMap; #i = index" [value]="i">{{item.label}}</option>
+                </select>
+            </div>
+        </div>
     </form>`
 
 })
@@ -27,6 +33,18 @@ export class NavBar {
             this.subMap = this.currentMap.childrens;
             this.bindingItem(this.defaultSubRootIdSelected());
         }
+    }
+
+    ngAfterViewInit() {
+        //noinspection TypeScriptUnresolvedFunction
+        $('.raport-chosen-select').chosen({
+            disable_search: false,
+            no_results_text: 'Aucun résultat. Appuyez sur la touche \'Entrée\' pour ajouter.',
+            placeholder_text_multiple: 'Sélectionnez',
+            search_contains: true
+        }).on('change', ($event, params) => {
+            this.changeItem(params.selected);
+        });
     }
 
 

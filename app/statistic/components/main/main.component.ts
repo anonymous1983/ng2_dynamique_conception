@@ -9,26 +9,12 @@ import {isPresent, isBlank} from 'angular2/src/facade/lang';
         <table class="table table-bordered table-striped"  *ngIf="data.length">
             <thead>
                 <tr>
-                    <th>Numéro consultation</th>
-                    <th>Intitulé Consultation</th>
-                    <th>Statut</th>
-                    <th>Numéro Lot</th>
-                    <th>Intitulé Lot</th>
-                    <th>Date Lancement</th>
-                    <th>Date Notification</th>
-                    <th>Date Attribution</th>
+                    <th *ngFor="#item of currentSubMap.config.table.header.th; #i = index">{{item.title}}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="#item of data; #i = index">
-                    <td>{{item.numero_consultation}}</td>
-                    <td>{{item.intitule_consultation}}</td>
-                    <td>{{item.statut_consultation}}</td>
-                    <td>{{item.numero_lot}}</td>
-                    <td>{{item.intitule_lot}}</td>
-                    <td>{{item.lancement_date_reelle}}</td>
-                    <td>{{item.notification_date_reelle}}</td>
-                    <td>{{item.attribution_date_reelle}}</td>
+                    <td *ngFor="#subItem of currentSubMap.config.table.header.th; #j = index">{{item[subItem.index]}}</td>
                 </tr>
             </tbody>
         </table>
@@ -38,16 +24,14 @@ import {isPresent, isBlank} from 'angular2/src/facade/lang';
 export class Main {
     @Input('map') map:any;
     @Input('currentMap') currentMap:any;
+    @Input('currentSubMap') currentSubMap:any;
     @Input('currentData') currentData:any;
 
     public data:Array<Object>;
 
     ngOnChanges() {
 
-        console.log(this.currentData);
         if (!isBlank(this.map)) {
-            console.log(this.map);
-            console.log(this.currentData);
             this.data = this.currentData[0].data;
         }
 

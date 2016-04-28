@@ -22,6 +22,10 @@
     "jquery-ui": "1.11.4",
     "font-awesome": "^4.5.0",
     "bootstrap": "^3.3.5",
-    "angular": "angular2#^1.5.0"
+    "angular": "angular2#^1.5.0",
+    "bootstrap-daterangepicker": "^2.1.19",
+    "moment": "^2.13.0",
+    "chosen": "^1.5.1",
+    "ng2-bootstrap": "^1.0.13"
   }
 }

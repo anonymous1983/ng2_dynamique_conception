@@ -1,40 +1,203 @@
 [
   {
-    "id": "date_lanc_debut",
-    "name": "date_lanc_debut",
-    "label": "Date début",
-    "visible": true,
-    "tag": "input",
-    "type": "date",
-    "default": "2015-04-15"
+    "fieldset": {
+      "header": true,
+      "id": "headingRequete",
+      "title": "Entités de référence",
+      "expanded": false,
+      "panel": {
+        "id": "collapseRequete",
+        "labelledby": "headingRequete"
+      }
+    },
+    "elements": [
+      {
+        "component": "chosen",
+        "id": "pouvoirAdjudicateur",
+        "name": "pouvoirAdjudicateur",
+        "label": "Pouvoir adjudicateur",
+        "visible": true,
+        "tag": "select",
+        "type": "select",
+        "default": "",
+        "class": "chosen-select pouvoir-adjudicateur-chosen-select",
+        "module": {
+          "name": "chosen",
+          "config": {
+            "multiple": false,
+            "data-placeholder": "Tous"
+          },
+          "items": [
+          ]
+        }
+      },
+      {
+        "component": "chosen",
+        "id": "direction",
+        "name": "direction",
+        "label": "Direction",
+        "visible": true,
+        "tag": "select",
+        "type": "select",
+        "default": "",
+        "class": "chosen-select direction-chosen-select",
+        "module": {
+          "name": "chosen",
+          "config": {
+            "multiple": true,
+            "data-placeholder": "Tous"
+          },
+          "items": [
+          ]
+        }
+      },
+      {
+        "component": "chosen",
+        "id": "services",
+        "name": "services",
+        "label": "Services",
+        "visible": true,
+        "tag": "select",
+        "type": "select",
+        "default": "",
+        "class": "chosen-select services-chosen-select",
+        "module": {
+          "name": "chosen",
+          "config": {
+            "multiple": true,
+            "data-placeholder": "Tous"
+          },
+          "items": [
+          ]
+        }
+      }
+    ]
   },
   {
-    "id": "date_lanc_fin",
-    "name": "date_lanc_fin",
-    "label": "Date fin",
-    "visible": true,
-    "tag": "input",
-    "type": "date",
-    "default": "2016-04-15"
-  },
-  {
-    "id": "nature",
-    "name": "nature",
-    "label": "Nature",
-    "visible": true,
-    "tag": "select",
-    "values": [
-      "~NOTHING~",
-      "Travaux",
-      "Services",
-      "Fournitures"
-    ],
-    "options": [
-      "[Sélectionner une nature]",
-      "Travaux",
-      "Services",
-      "Fournitures"
-    ],
-    "default": ""
+    "fieldset": {
+      "header": true,
+      "id": "headingFiltres",
+      "title": "Filtrer par",
+      "expanded": true,
+      "panel": {
+        "id": "collapseFiltres",
+        "labelledby": "headingFiltres"
+      }
+    },
+    "elements": [
+      {
+        "component": "daterangepicker",
+        "id": "date_lanc_debut_fin",
+        "name": "date_lanc_debut_fin",
+        "label": "Période",
+        "visible": true,
+        "tag": "input",
+        "type": "text",
+        "default": "",
+        "class": "daterange",
+        "module": {
+          "name": "daterangepicker",
+          "config": {
+            "defaultRange": "12 derniers mois",
+            "idDateStart": "idDateStart_",
+            "idDateEnd": "idDateEnd_"
+          },
+          "items": [
+            {
+              "id": "date_lanc_debut",
+              "name": "date_lanc_debut",
+              "default": ""
+            },
+            {
+              "id": "date_lanc_fin",
+              "name": "date_lanc_fin",
+              "default": ""
+            }
+          ]
+        }
+      },
+      {
+        "component": "boutonsgroup",
+        "id": "contrat_type",
+        "name": "contrat_type",
+        "label": "Type de contrat",
+        "visible": true,
+        "tag": "select",
+        "values": [
+          "Marché",
+          "AAC",
+          "DSP",
+          "SAD"
+        ],
+        "options": [
+          "Marche",
+          "AAC",
+          "DSP",
+          "SAD"
+        ],
+        "default": "",
+        "class": ""
+      },
+      {
+        "component": "chosen",
+        "id": "typeProcedure",
+        "name": "typeProcedure",
+        "label": "Type de procédure",
+        "visible": true,
+        "tag": "select",
+        "type": "select",
+        "default": "",
+        "class": "chosen-select type-procedure-chosen-select",
+        "module": {
+          "name": "chosen",
+          "config": {
+            "multiple": true,
+            "data-placeholder": "Tous"
+          },
+          "items": [
+          ]
+        }
+      },
+      {
+        "component": "boutonsgroup",
+        "id": "nature",
+        "name": "nature",
+        "label": "Nature des prestations",
+        "visible": true,
+        "tag": "select",
+        "values": [
+          "Travaux",
+          "Services",
+          "Fournitures"
+        ],
+        "options": [
+          "Travaux",
+          "Services",
+          "Fournitures"
+        ],
+        "default": "",
+        "class": ""
+      },
+      {
+        "component": "chosen",
+        "id": "statutConsultation",
+        "name": "statutConsultation",
+        "label": "Statut des consultations",
+        "visible": true,
+        "tag": "select",
+        "type": "select",
+        "default": "",
+        "class": "chosen-select statut-consultation-chosen-select",
+        "module": {
+          "name": "chosen",
+          "config": {
+            "multiple": true,
+            "data-placeholder": "Tous"
+          },
+          "items": [
+          ]
+        }
+      }
+    ]
   }
 ]

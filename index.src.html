@@ -4,39 +4,64 @@
     <base href="<!-- @echo HREF -->">
     <title>Statistique</title>
 
-
-
     <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/jquery-ui/themes/smoothness/jquery-ui.min.css">
-    <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/c3/c3.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="<!-- @echo BOWER_PATH -->/chosen/chosen.css">
 
+    <!--link rel="stylesheet" href="src/css/style.css"-->
 
-    <script src="<!-- @echo LIB_PATH -->/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="<!-- @echo LIB_PATH -->/systemjs/dist/system.src.js"></script>
-    <script src="<!-- @echo LIB_PATH -->/rxjs/bundles/Rx.js"></script>
+    <!-- RSEM styles -->
+    <link href="integration/css/bootstrap-custom.css" rel="stylesheet" type="text/css">
+    <link href="integration/css/main-layout.css" rel="stylesheet">
 
-    <script src="<!-- @echo LIB_PATH -->/angular2/bundles/angular2.dev.js"></script>
-    <script src="<!-- @echo LIB_PATH -->/angular2/bundles/router.dev.js"></script>
-    <script src="<!-- @echo LIB_PATH -->/angular2/bundles/http.dev.js"></script>
-    <script>
-        System.config({
-            packages: {
-                app: {
-                    format: 'register',
-                    defaultExtension: 'js'
-                }
-            }
-        });
-        System.import('app/bootstrap').then(null, console.error.bind(console));
-
-        var C = {
-            baseUrl: '<!-- @echo BASE_URL -->'
-        }
-    </script>
 </head>
 <body>
-<app>Loading...</app>
+
+<!--Debut header-->
+<!--div id="header"></div-->
+<!--Fin header-->
+<!--Debut partie centrale-->
+<div id="middle">
+
+    <div class="app-component">Loading...</div>
+
+</div>
+<!--Fin partie centrale-->
+<!--Debut footer-->
+<div id="footer"><a href="#">Conseils d'utilisation</a> - <a href="#">Mentions légales</a></div>
+<!--Fin footer-->
+
+
+
+<script src="<!-- @echo LIB_PATH -->/angular2/bundles/angular2-polyfills.js"></script>
+<script src="<!-- @echo LIB_PATH -->/systemjs/dist/system.src.js"></script>
+<script src="<!-- @echo LIB_PATH -->/rxjs/bundles/Rx.js"></script>
+<script src="<!-- @echo LIB_PATH -->/angular2/bundles/angular2.dev.js"></script>
+<script src="<!-- @echo LIB_PATH -->/angular2/bundles/router.dev.js"></script>
+<script src="<!-- @echo LIB_PATH -->/angular2/bundles/http.dev.js"></script>
+
+<script src="<!-- @echo BOWER_PATH -->/jquery/dist/jquery.min.js"></script>
+<script src="<!-- @echo BOWER_PATH -->/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="<!-- @echo BOWER_PATH -->/moment/moment.js"></script>
+<script src="<!-- @echo BOWER_PATH -->/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="<!-- @echo BOWER_PATH -->/chosen/chosen.jquery.js"></script>
+<script>
+    System.config({
+        packages: {
+            app: {
+                format: 'register',
+                defaultExtension: 'js'
+            }
+        }
+    });
+    System.import('app/bootstrap').then(null, console.error.bind(console));
+
+    var C = {
+        baseUrl: '<!-- @echo BASE_URL -->'
+    }
+</script>
 </body>
 </html>

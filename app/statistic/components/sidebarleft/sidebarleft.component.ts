@@ -5,10 +5,18 @@ import {isPresent, isBlank} from 'angular2/src/facade/lang';
 @Component({
     selector: '.sidebarleft-component',
     template: `
-    <ul class="nav nav-pills nav-stacked" *ngIf="map.length">
-        <li role="presentation" *ngFor="#item of map; #i = index" [class.active]="item.id === mapSelected.id"><a href="#" (click)="clickItem(item)">{{item.label}}</a>
-        </li>
-    </ul>`
+        <div id="menu">
+            <ul id="menuList">
+                <li class="menu-top-open" id="noteOpportunite">
+                    <span onclick="toggleMenu(this);">Rapports </span>
+                    <ul class="ss-menu-closed" *ngIf="map.length">
+                        <li class="off" *ngFor="#item of map; #i = index" [class.active]="item.id === mapSelected.id"><a href="#"(click)="clickItem(item)">{{item.label}}</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    `
 })
 
 export class SideBarLeft {

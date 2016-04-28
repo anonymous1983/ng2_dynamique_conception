@@ -4,10 +4,10 @@ import { Statistic } from './statistic/statistic.component';
 var W:any = window;
 
 @Component({
-    selector: 'app'
+    selector: '.app-component'
 })
 @View({
-    template: '<statistic [config]="configuration"></statistic>',
+    template: '<div class="statistic-component" [config]="configuration"></div>',
     directives: [Statistic]
 })
 export class AppComponent {
